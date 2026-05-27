@@ -1,0 +1,20 @@
+{
+  "name": "turath-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server untuk turath.io - kitab Islam & Arab klasik (HTTP/Railway)",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "express": "^4.19.2",
+    "turath-sdk": "^1.1.0",
+    "zod": "^3.25.42"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
